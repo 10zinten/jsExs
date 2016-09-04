@@ -1,5 +1,7 @@
-var friends = new Object();
-friends.bill = {
+var friends = new Object(); // constructor to create object friends
+
+// Objects into object
+friends.bill = {            //Lateral Notation to create object bill
      firstName : "Bill",
      lastName : "Gates",
      number : 5434-5454,
@@ -20,7 +22,7 @@ friends.tenzin = {
 };
 
 var list = function(para) {
-    for(var key in friends) {
+    for(var key in friends) { //new style iteration of for loop  
         console.log(key);    
     }    
 };
